@@ -1,3 +1,6 @@
+import React from 'react';
+import { Bell, User, Menu, X } from 'lucide-react';
+
 const Header = ({ currentUser, onRoleChange, sidebarOpen, setSidebarOpen }) => {
   return (
     <header className="bg-white shadow-sm border-b border-gray-200 px-6 py-4">
@@ -37,3 +40,5 @@ const Header = ({ currentUser, onRoleChange, sidebarOpen, setSidebarOpen }) => {
     </header>
   );
 };
+
+export default Header;
